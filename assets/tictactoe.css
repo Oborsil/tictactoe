@@ -1,0 +1,41 @@
+html {
+    font-size: 24px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.tictactoe {
+    display: flex;
+    flex-direction: column;
+    margin: 10rem auto;
+    border-radius: .5rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+    background-color: rgb(30, 144, 255);
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+
+}
+
+.tictactoe__row {
+    display: flex;
+}
+
+.tictactoe__cell {
+    border: 1px solid rgb(255, 255, 255);
+    height: 6.66rem;
+    width: 6.66rem;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
