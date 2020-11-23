@@ -15,22 +15,21 @@ body {
     display: flex;
     flex-direction: column;
     margin: 10rem auto;
-    border-radius: .5rem;
-    box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 24px rgba(0, 0, 0, .5);
     background-color: rgb(47, 126, 204);
     width: 15rem;
     height: 15rem;
     overflow: hidden;
     color: rgb(255, 255, 255);
-
 }
 
 .tictactoe__row {
     display: flex;
+   
 }
 
 .tictactoe__cell {
-    border: 1px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     height: 5rem;
     width: 5rem;
     padding: .5rem;
