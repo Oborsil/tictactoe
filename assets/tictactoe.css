@@ -17,9 +17,9 @@ body {
     margin: 10rem auto;
     border-radius: .5rem;
     box-shadow: 0 0 8px rgba(0, 0, 0, .5);
-    background-color: rgb(30, 144, 255);
-    width: 20rem;
-    height: 20rem;
+    background-color: rgb(47, 126, 204);
+    width: 15rem;
+    height: 15rem;
     overflow: hidden;
     color: rgb(255, 255, 255);
 
@@ -31,11 +31,12 @@ body {
 
 .tictactoe__cell {
     border: 1px solid rgb(255, 255, 255);
-    height: 6.66rem;
-    width: 6.66rem;
+    height: 5rem;
+    width: 5rem;
     padding: .5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     user-select: none;
+    
 }
